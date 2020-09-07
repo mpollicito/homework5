@@ -8,7 +8,7 @@ $(function () {
     // $(".container").append("");
     var newTimeBlock = $("<div id='"+ i +"' data-hour='" + i + "'>" + i + "</div>");
 
-    newTimeBlock.append("<button type='button' class='btn btn-secondary'>" + i + "</button>");
+    // newTimeBlock.append("<button type='button' class='btn btn-secondary'>" + i + "</button>");
     // look up providing default value for inputs
     newTimeBlock.append("<input/>");
     newTimeBlock.append("<button class='submitText'>Save<button/>");
@@ -16,8 +16,16 @@ $(function () {
 
     $(".container").append(newTimeBlock);
 
+    // $(".submit-text").on("click", function() {
+
+    //   var submitText = $();
+    
+    //   submitText.addClass();
+    
+    // });
+
+    
   }
-  
   //  find how to select different elements of the same class jQuery
 
 
