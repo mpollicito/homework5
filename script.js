@@ -11,20 +11,23 @@ $(function () {
     // newTimeBlock.append("<button type='button' class='btn btn-secondary'>" + i + "</button>");
     // look up providing default value for inputs
     newTimeBlock.append("<input/>");
-    newTimeBlock.append("<button class='submitText'>Save<button/>");
+    newTimeBlock.append("<button class='saveBtn'>Save<button/>");
     //  add localStorage(); functionality
 
     $(".container").append(newTimeBlock);
 
-    // $(".submit-text").on("click", function() {
+    if (newTimeBlock = true ) {
+      $(".saveBtn").on("click", function() {
 
-    //   var submitText = $();
-    
-    //   submitText.addClass();
-    
-    // });
+        var submitText = $();
+        
+        submitText.addClass();
+        
+        });
+    } else {
+      console.log(submitText);
+    }
 
-    
   }
   //  find how to select different elements of the same class jQuery
 
